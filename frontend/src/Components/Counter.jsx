@@ -125,12 +125,12 @@ function Counter() {
 
 
     return (
-        <div className='flex flex-col justify-center items-center gap-6 sm:gap-8 min-h-screen bg-gradient-to-br from-slate-800 to-slate-900 p-4 sm:p-6'>
+        <div className='flex flex-col justify-center items-center gap-6 sm:gap-8 min-h-screen p-4 sm:p-6'>
             <div className='text-center'>
                 <h1 className='text-2xl xs:text-3xl sm:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 mb-1 sm:mb-2'>
                     Interactive Counter
                 </h1>
-                <p className='text-slate-300 text-sm sm:text-base'>Click the buttons to change the value</p>
+                <p className='text-sm sm:text-base'>Click the buttons to change the value</p>
             </div>
 
             <div className='flex flex-col justify-center items-center gap-4 sm:gap-6 bg-slate-700 p-4 sm:p-6 md:p-8 rounded-xl shadow-2xl border border-slate-600 w-full max-w-xs xs:max-w-sm sm:max-w-md'>
@@ -177,7 +177,7 @@ function Counter() {
                 </div>
             </div>
 
-            <div className='text-slate-400 text-xs sm:text-sm mt-2 sm:mt-4'>
+            <div className='text-xs sm:text-sm mt-2 sm:mt-4'>
                 Current value: <span className='font-bold'>{amount}</span>
             </div>
         </div>

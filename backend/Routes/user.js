@@ -6,7 +6,9 @@ const {
     getUserById,
     updateUser,
     deleteUser,
-    deleteAllUsers
+    deleteAllUsers,
+    signUp,
+    login
 } = require('../Controllers/user');
 
 
@@ -29,6 +31,12 @@ user_router.delete('/delete_all', deleteAllUsers); // DELETE all users
 user_router.delete('/:id', deleteUser);
 
 
+
+// Signup Route
+user_router.post('/signup', signUp);
+
+// Login Route
+user_router.post('/login', login);
 
 
 

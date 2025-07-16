@@ -5,7 +5,7 @@ const initialState = { value: 0 }
 
 
 const amountSlice= createSlice({
-    name: 'AAAmount',// name
+    name: 'Amount',// name
     initialState,
     reducers:{
         increment(state){
